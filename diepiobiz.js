@@ -58,7 +58,7 @@ function doMod() {
         optionsDiv.children[1].innerHTML += '<div><strong>(X)</strong><label><input type="checkbox" id="optnAutoFire">Auto fire</label></div>';
         optionsDiv.children[1].innerHTML += '<div><strong>(C)</strong><label><input type="checkbox" id="optn4x3">4:3 aspect</label></div>';
         optionsDiv.children[1].innerHTML += '<div><strong>(V)</strong><label><input type="checkbox" id="optnDarkTheme">Dark theme</label></div>';
-        optionsDiv.children[2].innerHTML += '<a style="background-color: #222; color: #AF3; padding: 1px 6px; border-radius: 2px; text-decoration: none; float: left;" href="http://vignette3.wikia.nocookie.net/diepio/images/e/ee/Classes.png/revision/latest?cb=20160617121714" target="_blank">Classes Tree</a>Mod by <a href="http://diepio.biz" target="_blank">diepio.biz</a>.';
+        optionsDiv.children[2].innerHTML += '<a style="background-color: #222; color: #AF3; padding: 1px 6px; border-radius: 2px; text-decoration: none; float: left;" href="http://vignette3.wikia.nocookie.net/diepio/images/e/ee/Classes.png/revision/latest?cb=20160617121714" target="_blank">Classes Tree</a>.';
         popupsDiv = document.createElement('div');
         popupsDiv.id = 'notificationPopups';
         popupsDiv.style = 'position: absolute; display: flex; flex-direction: column-reverse; bottom: 10px; left: 210px; width: 260px; max-height: 200px; overflow: hidden; font-family: Ubuntu;';
